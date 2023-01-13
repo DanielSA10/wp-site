@@ -124,14 +124,14 @@
     align-items: center;
 }
 .section2Right img{
-    max-width:60%;
+    width:100%;
     margin-bottom: 30px;
 }
-/* @media (min-width:1000px){
-    .section2Right {
-        margin: 0;
+@media (min-width:1000px){
+    .section2Right img {
+        max-width:60%
     }
-} */
+}
 
 
 .section3Text {
@@ -189,7 +189,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 80px;
+        gap: 100px;
     }
 }
 
@@ -231,7 +231,7 @@
     max-width: 300px;
     font-size: clamp(1rem, 5vw, 1.1rem);
     margin: 0 auto;
-    padding-top: 30px;
+    
 }
 
 .testWrap Title {
